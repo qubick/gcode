@@ -24,6 +24,8 @@ G94 - Feed rate mode (not implemented)
 G97 - Spindle speed rate
 G161 - Home negative
 G162 - Home positive
+
+
 G-Codes can have all kinds of arguments. Only a few of those are actually used here:
 
 X absolute position
@@ -53,3 +55,6 @@ G1 X5 Y-5 Z6 F3300.0 (Move to postion <x,y,z>=<5,-5,6> at speed 3300.0)
 G21 (set units to mm)
 G90 (set positioning to absolute)
 G92 X0 Y0 Z0 (set current position to <x,y,z>=<0,0,0>)
+
+More reference:
+http://www.mmattera.com/g-code/gcodes.html
