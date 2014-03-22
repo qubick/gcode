@@ -19,7 +19,8 @@ G92 X0 Y0 Z0
 
 
 G1 Z-130 (set gap to 30mm between nozzle and base)
-G1 X-95 Y-90 Z-140 F2300
+G1 X-95 Y-90 F2300
+G1 Z-140 (clicking)
 G1 Z-130
 
 (**** begin homing x,y to the most inner corner, z to base****)
