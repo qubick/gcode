@@ -1,3 +1,6 @@
+Makerbot max z-height is 150 (mm)
+
+
 Some useful G-Codes are:
 
 G0 - Rapid Motion
