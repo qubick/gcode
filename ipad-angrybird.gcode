@@ -18,10 +18,24 @@ G92 X0 Y0 Z0
 
 
 G1 Z-110 F2300(set gap to 30mm between nozzle and base)
+
 G1 X-70 Y-40 F2300
 G1 Z-132 (clicking)
 G1 X-65 Y0 F1800 (drgging)
 G1 Z-110
+G4 10 (wait)
+
+G1 X-65 Y-40 F2300
+G1 Z-132 (clicking)
+G1 X-60 Y-10 F1800 (drgging)
+G1 Z-110
+G4 10 (wait)
+
+G1 X-70 Y-40 F2300
+G1 Z-132 (clicking)
+G1 X-55 Y-15 F1800 (drgging)
+G1 Z-110
+G4 10 (wait)
 
 (**** begin homing x,y to the most inner corner, z to base****)
 (G162 X Y F2500 (home XY axes maximum)
