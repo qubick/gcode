@@ -1,5 +1,7 @@
 Makerbot max z-height is 150 (mm)
 
+Gcode wiki available at:
+http://reprap.org/wiki/G-code
 
 Some useful G-Codes are:
 
