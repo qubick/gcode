@@ -35,13 +35,8 @@ G1 X-75 Y-40 F2300
 G1 Z-132 (clicking)
 G1 X-55 Y-30 F1800 (drgging)
 G1 Z-110
-G4 P12000 (wait 10 seconds)
 
-G1 X-75 Y-40 F2300
-G1 Z-132 (clicking)
-G1 X-60 Y-35 F1800 
-G1 Z-110
-G4 P30000
+G4 P12000
 
 (**** begin homing x,y to the most inner corner, z to base****)
 (G162 X Y F2500 (home XY axes maximum)
