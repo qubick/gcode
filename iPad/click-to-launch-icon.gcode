@@ -1,4 +1,3 @@
-
 (*  on 2014/03/21 16:35:14 (-0600) *)
 (**** start.gcode for Replicator 2, single head ****)
 M73 P2 (display progress)
