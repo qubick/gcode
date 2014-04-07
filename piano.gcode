@@ -19,32 +19,29 @@ G92 X0 Y0 Z0
 
 G1 Z-110 F2300(set gap to 30mm between nozzle and base)
 
-G1 X-125 Y-25 F2300
-G1 Z-135 (click co)
+G1 X-125 Y-25 F3000
+G1 Z-140 (click do)
 G1 Z-110
 
 G1 X-137 
-G1 Z-135 (click mi)
+G1 Z-140 (click mi)
 G1 Z-110
 
 G1 X-115 
-G1 Z-135 (click la)
+G1 Z-140 (click la)
 G1 Z-110
 
 G1 X-115 Y-35 
-G1 Z-135 (click la)
+G1 Z-140 (click la)
 G1 Z-110
 
-G1 X-170 Y-20
-G1 Z-135 (click sol)
+G1 X-165 Y-20
+G1 Z-140 (click sol)
 G1 Z-110
 
-G1 Z-135 (click 8ol)
-G1 Z-110
-
-G1 X-175
-G1 Z-110
-G1 X-125 (drag)
+G1 X-170
+G1 Z-140
+G1 X-100 (drag)
 G1 Z-110
 
 (**** begin homing x,y to the most inner corner, z to base****)
