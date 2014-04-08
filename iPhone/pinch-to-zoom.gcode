@@ -19,17 +19,21 @@ G92 X0 Y0 Z0
 
 G1 Z-110 F2300(set gap to 30mm between nozzle and base)
 
-G1 X-175 Y-25 F2300
-G1 Z-137
+G1 X-178 Y-30 F1800
+G1 Z-139
 
-G1 X-165 F1800 (drag one stylus)
+G1 X-145 F2200 (drag stylus2)
 G1 Z-110
 
 G4 P300
 
-G1 X-170 Y-50 Z-130 (center?)
+G1 X-165 Y-105 Z-105 (center?)
+G1 Z-113 F1800 (click)
+G1 Z-105
+
+G4 P1000
 
 
 G1 X0 Y0 Z0 (home to absolute 0)
 
-M72 P1  ( Play Ta-Da song )
+(M72 P1  ( Play Ta-Da song )
