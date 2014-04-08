@@ -30,8 +30,11 @@ G4 P300
 G1 X-165 Y-105 Z-105 (center?)
 G1 Z-113 F1800 (click)
 G1 Z-105
-
 G4 P1000
+
+G1 Z-113 F1800 (click one more)
+G1 Z-105
+G4 P1000 (wait)
 
 
 G1 X0 Y0 Z0 (home to absolute 0)
