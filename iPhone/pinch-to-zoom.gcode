@@ -19,10 +19,11 @@ G92 X0 Y0 Z0
 
 G1 Z-110 F2300(set gap to 30mm between nozzle and base)
 
-G1 X-170 Y-25 F3000
+G1 X-175 Y-25 F2300
 G1 Z-137
-G1 Z-110
 
+G1 X-165 (drag one stylus)
+G1 Z-110
 
 G1 X0 Y0 Z0 (home to absolute 0)
 
