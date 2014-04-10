@@ -19,20 +19,20 @@ G92 X0 Y0 Z0
 
 G1 Z-80 F2300(set gap to 30mm between nozzle and base)
 
-G1 X-175 F2300
-G1 Z-110 (click 5)
+G1 X-140 Y-20 F2300
+G1 Z-110 (click diamond)
 G1 Z-80 (restore zero point)
 
-G1 Y-95 F2300
-G1 Z-110 (click '*')
+G1 X-110
+G1 Z-110 (click star)
 G1 Z-80
 
-G1 X-200 Y-50 F2300
-G1 Z-110 (click 3)
+G1 X-90 Y-55 F2300
+G1 Z-110 (click heart)
 G1 Z-80
 
-G1 X-240 F2300
-G1 Z-110 (click '=')
+G1 X-50
+G1 Z-115 (click '=')
 G1 z-80
 
 
