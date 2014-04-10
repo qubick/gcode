@@ -9,9 +9,9 @@ int inputE = A2;
 int inputF = A3;
 
 int ledC = 12;
-int ledD = 5;
-int ledE = 6;
-int ledF = 7;
+int ledD = 11;
+int ledE = 10;
+int ledF = 9;
 
 int c = LOW;
 int d = LOW;
@@ -32,6 +32,9 @@ void setup() {
  pinMode(inputF, INPUT); 
  
  pinMode(ledC, OUTPUT);
+ pinMode(ledD, OUTPUT);
+ pinMode(ledE, OUTPUT);
+ pinMode(ledF, OUTPUT);
 }
 
 // MELODY and TIMING  =======================================
@@ -77,7 +80,6 @@ void playTone() {
       delayMicroseconds(duration);  
     }                                
   }  
-  digitalWrite(ledC, LOW);  
 }
 
 // LET THE WILD RUMPUS BEGIN =============================
@@ -93,21 +95,51 @@ void loop() {
     
     tone_ = 3830;
     duration = 18 * tempo;
-    playTone();
-    delayMicroseconds(pause);
+    //playTone();
   }
   if(d == HIGH){
+    digitalWrite(ledD, d);
+    
     tone_ = 3400;
-    playTone();
+    //playTone();
   }
   if(e == HIGH){
+    digitalWrite(ledE, e);
+    
     tone_ = 3038;
     playTone();
   }
-  if(f == HIGH){
+  if(f == LOW){
+    digitalWrite(ledF, f);
     tone_ = 2864;
-    playTone();
+    //playTone();
   }
   
+  if(c == LOW){
+    digitalWrite(ledC, c);
+    
+    tone_ = 3830;
+    duration = 18 * tempo;
+    //playTone();
+  }
+  if(d == LOW){
+    digitalWrite(ledD, d);
+    
+    tone_ = 3400;
+    //playTone();
+  }
+  if(e == LOW){
+    digitalWrite(ledE, e);
+    
+    tone_ = 3038;
+    playTone();
+  }
+  if(f == LOW){
+    digitalWrite(ledF, f);
+    tone_ = 2864;
+    //playTone();
+  }
+  
+  digitalWrite(speakerOut, LOW);
   //Serial.write(speakerOut);
 }
