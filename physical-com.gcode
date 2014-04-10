@@ -27,12 +27,12 @@ G1 X-110
 G1 Z-110 (click star)
 G1 Z-80
 
-G1 X-90 Y-55 F2300
+G1 Y0 F2300
 G1 Z-110 (click heart)
 G1 Z-80
 
-G1 X-50
-G1 Z-115 (click '=')
+G1 X-20 Y-60
+G1 Z-115 (quilling to slider)
 G1 z-80
 
 
