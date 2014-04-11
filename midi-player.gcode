@@ -21,7 +21,7 @@ G1 Z-110 F2300(set gap to 30mm between nozzle and base)
 
 G1 X-125 Y-25 F1800
 G1 Z-132 (click 8)
-G3 X-150 Y-50 
+G3 X-150 Y-50 R25
 G1 Z-110
 
 
@@ -34,5 +34,3 @@ G1 Z-110
 (**** end homing ****)
 
 G1 X0 Y0 Z0 (home to absolute 0)
-
-M72 P1  ( Play Ta-Da song )
