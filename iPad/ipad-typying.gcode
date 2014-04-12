@@ -20,11 +20,11 @@ G92 X0 Y0 Z0
 G1 Z-110 F2300(set gap to 30mm between nozzle and base)
 
 G1 X-50 Y-25 F2300
-G1 Z-132 (click E)
+G1 Z-120 (click E)
 G1 Z-110
 
 G1 X-30 Y0 
-G1 Z-132 (click G)
+G1 Z-120 (click G)
 G1 Z-110
 
 G1 Z-132
@@ -32,17 +32,16 @@ G1 Z-110
 
 
 G1 X-10 Y-45
-G1 Z-132
+G1 Z-120
 G1 Z-110 (change keyboard type)
 
 G1 X-30 Y5
-G1 Z-132 (click won)
-G1 Z-110
+G1 Z-120 (click won)
 
 G4 P300 (wait)
 
 G1 X-45 Y10 (move to dollar)
-G1 Z-132
+G1 Z-120
 G1 Z-110
 
 (type number???)
