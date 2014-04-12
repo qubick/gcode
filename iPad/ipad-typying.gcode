@@ -40,7 +40,7 @@ G1 Z-95 (click won)
 
 G4 P400 (wait)
 
-G1 X-200 Y-115 (move to dollar)
+G1 X-200 Y-120 (move to dollar)
 G1 Z-85
 
 G1 X-100 Y-115 F2300
