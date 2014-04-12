@@ -31,18 +31,20 @@ G1 Z-95
 G1 Z-85
 
 
-G1 X-80 Y-70
+G1 X-75 Y-65
 G1 Z-95
 G1 Z-85 (change keyboard type)
 
-G1 X-163 Y-100
+G1 X-183 Y-100
 G1 Z-95 (click won)
 
 G4 P400 (wait)
 
-G1 X-170 Y-105 (move to dollar)
+G1 X-200 Y-115 (move to dollar)
 G1 Z-85
 
-(type number???)
+G1 X-100 Y-115 F2300
+G1 Z-95 (click 3)
+G1 Z-85
 
 G1 X0 Y0 Z0 (home to absolute 0)
