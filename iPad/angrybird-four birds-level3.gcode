@@ -13,7 +13,6 @@ G162 X Y F2500 (home XY axes maximum)
 (G162 Z F1100 (home Z axis minimum)
 (**** end homing ****)
 
-(*** click home button of iphone )
 G92 X0 Y0 Z0
 
 
